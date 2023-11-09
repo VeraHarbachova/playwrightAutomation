@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 31 14:02:05 CET 2023","Tue Oct 31 14:02:07 CET 2023","2261","chromium","Reporters.spec.js","","","","Test 3",""
+"failed","Tue Oct 31 14:02:00 CET 2023","Tue Oct 31 14:02:03 CET 2023","2127","chromium","Reporters.spec.js","","","","Test 1",""
+"passed","Tue Oct 31 14:02:03 CET 2023","Tue Oct 31 14:02:05 CET 2023","1931","chromium","Reporters.spec.js","","","","Test 2",""

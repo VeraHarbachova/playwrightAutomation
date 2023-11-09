@@ -1,0 +1,226 @@
+{
+  "config": {
+    "configFile": "D:\\AQA\\playwrightAutomation\\playwright.config.js",
+    "rootDir": "D:/AQA/playwrightAutomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "D:\\AQA\\playwrightAutomation\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/AQA/playwrightAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/AQA/playwrightAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.39.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "APITests.spec.js",
+      "file": "APITests.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get users",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 191,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  page: \u001b[33m2\u001b[39m,\n  per_page: \u001b[33m6\u001b[39m,\n  total: \u001b[33m12\u001b[39m,\n  total_pages: \u001b[33m2\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m7\u001b[39m,\n      email: \u001b[32m'michael.lawson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Michael'\u001b[39m,\n      last_name: \u001b[32m'Lawson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/7-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m8\u001b[39m,\n      email: \u001b[32m'lindsay.ferguson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Lindsay'\u001b[39m,\n      last_name: \u001b[32m'Ferguson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/8-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m9\u001b[39m,\n      email: \u001b[32m'tobias.funke@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Tobias'\u001b[39m,\n      last_name: \u001b[32m'Funke'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/9-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m10\u001b[39m,\n      email: \u001b[32m'byron.fields@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Byron'\u001b[39m,\n      last_name: \u001b[32m'Fields'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/10-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m11\u001b[39m,\n      email: \u001b[32m'george.edwards@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'George'\u001b[39m,\n      last_name: \u001b[32m'Edwards'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/11-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m12\u001b[39m,\n      email: \u001b[32m'rachel.howell@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Rachel'\u001b[39m,\n      last_name: \u001b[32m'Howell'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/12-image.jpg'\u001b[39m\n    }\n  ],\n  support: {\n    url: \u001b[32m'https://reqres.in/#support-heading'\u001b[39m,\n    text: \u001b[32m'To keep ReqRes free, contributions towards server costs are appreciated!'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-01T00:16:14.189Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-626a5d454fa0b6071a35",
+          "file": "APITests.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Create user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 170,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'pavan'\u001b[39m,\n  job: \u001b[32m'trainer'\u001b[39m,\n  id: \u001b[32m'842'\u001b[39m,\n  createdAt: \u001b[32m'2023-11-01T00:16:14.023Z'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-01T00:16:14.383Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-bb492044e9fddbfaee10",
+          "file": "APITests.spec.js",
+          "line": 12,
+          "column": 1
+        },
+        {
+          "title": "Update user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 162,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'pavan'\u001b[39m,\n  job: \u001b[32m'engineer'\u001b[39m,\n  updatedAt: \u001b[32m'2023-11-01T00:16:14.184Z'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-01T00:16:14.554Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-3324d3c8f344f989d417",
+          "file": "APITests.spec.js",
+          "line": 30,
+          "column": 1
+        },
+        {
+          "title": "Delete user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 195,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-01T00:16:14.718Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6e518dd64a90dc053d2-da09cda14bb0fac92802",
+          "file": "APITests.spec.js",
+          "line": 48,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-11-01T00:16:13.733Z",
+    "duration": 1204.442
+  }
+}
